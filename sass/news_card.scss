@@ -16,7 +16,8 @@
             background: {
                 image: url(../images/ny.jpg);
                 size: cover;
-                position: 50%;
+                position: 50% 50%;
+                attachment: fixed;
             }
             width: 100%;
             height: 150px;

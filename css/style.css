@@ -191,7 +191,8 @@ body {
     .news_card .card div {
       background-image: url(../images/ny.jpg);
       background-size: cover;
-      background-position: 50%;
+      background-position: 50% 50%;
+      background-attachment: fixed;
       width: 100%;
       height: 150px; }
     .news_card .card h1 {
