@@ -38,12 +38,10 @@
             padding: 3px;
             
             table {
-                width: 95%;
-                margin: auto;
-                
+                width: 100%;
                 tr {
                     td {
-                        height: 37px;
+                        height: 40px;
                         text-align: center;
                         cursor: pointer;
                         @include transition(0.3s);
