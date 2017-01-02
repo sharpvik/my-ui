@@ -43,7 +43,7 @@
                 
                 tr {
                     td {
-                        height: 32px;
+                        height: 37px;
                         text-align: center;
                         cursor: pointer;
                         @include transition(0.3s);
@@ -53,6 +53,11 @@
                         background-color: #E91E63;
                         @include borrad(50%);
                         @include transition(0.3s);
+                    }
+                    
+                    .empty_date {
+                        cursor: auto;
+                        pointer-events: none;
                     }
                 }
             }
