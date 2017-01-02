@@ -1,0 +1,61 @@
+.calendar_widget {
+    background-color: rgba(#FF9800, 0.5);
+    
+    .widget {
+        width: 300px;
+        margin: auto;
+        @include borrad(5px);
+        overflow: hidden;
+        color: white;
+        
+        .topbar {
+            position: relative;
+            padding: 10px 0;
+            background-color: #1A237E;
+            
+            p {
+                margin: 0 20px 10px 20px;
+                line-height: 40px;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+            
+            .days_of_week {
+                display: flex;
+                width: 95%;
+                margin: auto;
+                
+                span {
+                    width: 20%;
+                    text-align: center;
+                    opacity: 0.7;
+                }
+            }
+        }
+        
+        .body {
+            background-color: #3F51B5;
+            padding: 3px;
+            
+            table {
+                width: 95%;
+                margin: auto;
+                
+                tr {
+                    td {
+                        height: 32px;
+                        text-align: center;
+                        cursor: pointer;
+                        @include transition(0.3s);
+                    }
+                    
+                    .active_date {
+                        background-color: #E91E63;
+                        @include borrad(50%);
+                        @include transition(0.3s);
+                    }
+                }
+            }
+        }
+    }
+}

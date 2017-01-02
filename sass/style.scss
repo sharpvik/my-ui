@@ -1,0 +1,73 @@
+//  Variables
+//-----------
+$bg: #263238;
+
+
+
+// Mixins
+//-------
+@mixin transition($duration) {
+    -webkit-transition: all $duration;
+    -ms-transition: all $duration;
+    -moz-transition: all $duration;
+    transition: all $duration;
+}
+
+@mixin shadow($moved) {
+    -webkit-box-shadow: 0px $moved 5px 3px rgba(170, 170, 170, 0.1);
+    -ms-box-shadow: 0px $moved 5px 3px rgba(170, 170, 170, 0.1);
+    -moz-box-shadow: 0px $moved 5px 3px rgba(170, 170, 170, 0.1);
+    box-shadow: 0px $moved 5px 3px rgba(170, 170, 170, 0.1);
+}
+
+@mixin borrad($radius) {
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+
+
+// Styles
+//-------
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Roboto', Arial, Tahoma, Verdana, sans-serif; 
+}
+
+.section_name {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.sectant {
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 650px) {
+    .sectant {
+        padding: 30px 0;
+    }
+}
+
+.none {
+    display: none;
+}
+
+.scroll {
+    height: 2000px;
+    color: white;
+}
+
+
+
+@import "music_app";
+@import "weather_widget";
+@import "calendar_widget";

@@ -1,0 +1,106 @@
+.weather_widget {
+    background-color: #1A237E;
+    
+    .section_name {
+        color: white;
+    }
+    
+    .widget {
+        width: 300px;
+        height: 270px;
+        @include borrad(5px);
+        overflow: hidden;
+        margin: auto;
+        
+        .main {
+            position: relative;
+            height: 210px;
+            background-color: #1976D2;
+            overflow: hidden;
+            color: white;
+            
+            .city {
+                margin: 15px 15px 5px 15px;
+            }
+            
+            .temperature {
+                font-size: 50px;
+                font-weight: 300;
+                margin-left: 15px;
+            }
+            
+            .fa {
+                position: absolute;
+                padding: 15px;
+                top: 0;
+                right: 0;
+                font-size: 18px;
+                opacity: 0.7;
+                cursor: pointer;
+                @include transition(0.3s);
+                
+                &:hover {
+                    opacity: 1;
+                    @include transition(0.3s);
+                }
+            }
+            
+            .status {
+                position: absolute;
+                width: 85%;
+                bottom: -50%;
+                right: -16%;
+            }
+            
+            .locations {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                @include borrad(5px);
+                overflow: hidden;
+                background-color: white;
+                color: black;
+                font-size: 14px;
+                @include transition(0.3s);
+                
+                p {
+                    line-height: 32.5px;
+                    padding: 0 12.5px;
+                    cursor: pointer;
+                }
+            }
+            
+            .locations_hidden {
+                opacity: 0;
+                pointer-events: none;
+                @include transition(0.3s);
+            }
+        }
+        
+        .timeline {
+            position: relative;
+            height: 60px;
+            overflow: hidden;
+            background-color: white;
+            @include shadow(-1px);
+            
+            .fa {
+                position: absolute;
+                left: 50%;
+                font-size: 20px;
+                transform: translateX(-50%);
+                color: #1976D2;
+            }
+            
+            .hours {
+                position: absolute;
+                width: 200%;
+                
+                span {
+                    line-height: 60px;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}
