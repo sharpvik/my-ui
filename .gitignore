@@ -47,5 +47,5 @@ Temporary Items
 .apdisk
 
 # Gulp stuff
-/Users/victorrozenko/Documents/gulpfile.js
-/Users/victorrozenko/Documents/node_modules
+gulpfile.js
+node_modules
