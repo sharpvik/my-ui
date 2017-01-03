@@ -33,6 +33,7 @@ $(document).ready(function() {
         
         if (newLocation.toLowerCase() === "almaty") {
             $('.status').attr('src', 'images/cloudy.svg');
+            $('.status').css('transform', 'rotate(0deg)');
         } else if (newLocation.toLowerCase() === "la romana" || newLocation.toLowerCase() === "saint louis") {
             $('.status').attr('src', 'images/sun.svg');
         } 

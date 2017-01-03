@@ -377,66 +377,6 @@ body {
         -moz-transition: all 0.3s;
         transition: all 0.3s; }
 
-.bottom_sheet {
-  background-color: #0D47A1; }
-  .bottom_sheet .section_name {
-    color: white; }
-  .bottom_sheet .app {
-    background-color: white;
-    width: 300px;
-    margin: auto; }
-    .bottom_sheet .app iframe {
-      width: 100%;
-      height: 200px; }
-    .bottom_sheet .app .sheet .topbar {
-      position: relative;
-      background-color: #4285f4;
-      color: white;
-      height: 70px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 0 20px; }
-      .bottom_sheet .app .sheet .topbar h2 {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 1.5; }
-      .bottom_sheet .app .sheet .topbar h3 {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 1.5; }
-      .bottom_sheet .app .sheet .topbar button {
-        -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        -ms-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        background-color: white;
-        border: none;
-        -webkit-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
-        color: #4285f4;
-        right: 20px;
-        top: -25px;
-        font-size: 22px;
-        line-height: 50px;
-        cursor: pointer; }
-    .bottom_sheet .app .sheet table {
-      width: 100%; }
-      .bottom_sheet .app .sheet table .icon_box {
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        font-size: 22px;
-        color: #4285f4; }
-      .bottom_sheet .app .sheet table .data_box {
-        padding: 0 15px;
-        font-size: 14px; }
-
 .card_expanding {
   background-color: #009688; }
   .card_expanding .section_name {
@@ -514,3 +454,137 @@ body {
         padding-top: 0;
         font-size: 14px;
         line-height: 1.3; }
+
+.bottom_sheet {
+  background-color: #0D47A1; }
+  .bottom_sheet .section_name {
+    color: white; }
+  .bottom_sheet .app {
+    background-color: white;
+    width: 280px;
+    margin: auto; }
+    .bottom_sheet .app iframe {
+      width: 100%;
+      height: 200px; }
+    .bottom_sheet .app .sheet .topbar {
+      position: relative;
+      background-color: #4285f4;
+      color: white;
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px; }
+      .bottom_sheet .app .sheet .topbar h2 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5; }
+      .bottom_sheet .app .sheet .topbar h3 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5; }
+      .bottom_sheet .app .sheet .topbar button {
+        -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border: none;
+        -webkit-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        color: #4285f4;
+        right: 20px;
+        top: -25px;
+        font-size: 22px;
+        line-height: 50px;
+        cursor: pointer; }
+    .bottom_sheet .app .sheet table {
+      width: 100%; }
+      .bottom_sheet .app .sheet table .icon_box {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 22px;
+        color: #4285f4; }
+      .bottom_sheet .app .sheet table .data_box {
+        padding: 0 15px;
+        font-size: 14px; }
+
+.stocks_card .card {
+  width: 240px;
+  margin: auto;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #4285f4;
+  color: white;
+  padding: 15px;
+  position: relative; }
+  .stocks_card .card h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 5px; }
+  .stocks_card .card .sub {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px; }
+  .stocks_card .card table .cost {
+    font-size: 40px; }
+  .stocks_card .card table .rise {
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    font-size: 14px; }
+  .stocks_card .card .company_picker {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    right: 0;
+    opacity: 0.7;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    .stocks_card .card .company_picker:hover {
+      opacity: 1;
+      -webkit-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+  .stocks_card .card .companies {
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: black;
+    overflow: hidden;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    .stocks_card .card .companies p {
+      line-height: 32.5px;
+      padding: 0 12.5px;
+      cursor: pointer; }
+  .stocks_card .card .companies_hidden {
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
