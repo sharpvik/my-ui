@@ -39,6 +39,7 @@
                 }
                 
                 button {
+                    @include shadow(5px);
                     position: absolute;
                     height: 50px;
                     width: 50px;
