@@ -212,7 +212,7 @@ body {
     .news_card .card button {
       background: transparent;
       border: none;
-      color: #039BE5;
+      color: #4285f4;
       font-size: 16px;
       font-weight: 500;
       padding: 15px;
@@ -328,7 +328,7 @@ body {
         text-align: center;
         background: transparent;
         border: none;
-        color: #039BE5;
+        color: #4285f4;
         font-size: 16px;
         font-weight: 500;
         padding: 15px;
@@ -412,7 +412,7 @@ body {
         -moz-border-radius: 50%;
         border-radius: 50%;
         color: #4285f4;
-        right: 15px;
+        right: 20px;
         top: -25px;
         font-size: 22px;
         line-height: 50px;
@@ -428,3 +428,81 @@ body {
       .bottom_sheet .app .sheet table .data_box {
         padding: 0 15px;
         font-size: 14px; }
+
+.card_expanding {
+  background-color: #009688; }
+  .card_expanding .section_name {
+    color: white; }
+  .card_expanding .card {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden; }
+    .card_expanding .card .content .image {
+      width: 100%;
+      height: 150px;
+      background-image: url(../images/trips.jpg);
+      background-size: cover; }
+    .card_expanding .card .content h1 {
+      font-size: 18px;
+      padding: 10px 15px 5px 15px; }
+    .card_expanding .card .content h5 {
+      font-weight: 400;
+      padding: 0 15px;
+      color: rgba(0, 0, 0, 0.7); }
+    .card_expanding .card .content .buttons {
+      margin: 20px 0 10px 0; }
+      .card_expanding .card .content .buttons button {
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        cursor: pointer; }
+      .card_expanding .card .content .buttons .text {
+        width: 250px; }
+        .card_expanding .card .content .buttons .text button {
+          color: #4285f4;
+          height: 35px;
+          padding: 0 10px;
+          margin-left: 15px; }
+          .card_expanding .card .content .buttons .text button:active {
+            background-color: #eee;
+            -webkit-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px; }
+      .card_expanding .card .content .buttons .icon {
+        text-align: center;
+        width: 50px; }
+        .card_expanding .card .content .buttons .icon button {
+          width: 35px;
+          height: 35px;
+          margin-right: 15px;
+          -webkit-transition: all 0.2s;
+          -ms-transition: all 0.2s;
+          -moz-transition: all 0.2s;
+          transition: all 0.2s; }
+          .card_expanding .card .content .buttons .icon button:active {
+            background-color: #eee;
+            -webkit-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%; }
+        .card_expanding .card .content .buttons .icon .turned {
+          transform: rotate(180deg);
+          -webkit-transition: all 0.2s;
+          -ms-transition: all 0.2s;
+          -moz-transition: all 0.2s;
+          transition: all 0.2s; }
+    .card_expanding .card .content .hidden {
+      display: none; }
+      .card_expanding .card .content .hidden p {
+        padding: 15px;
+        padding-top: 0;
+        font-size: 14px;
+        line-height: 1.3; }
