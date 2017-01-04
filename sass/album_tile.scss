@@ -1,0 +1,43 @@
+.album_tile {
+    background-color: #212121;
+    
+    .section_name {
+        color: white;
+    }
+    
+    .tile {
+        width: 300px;
+        margin: auto;
+        
+        .image {
+            height: 300px;
+            background-image: url(../images/album.jpg);
+            background-size: cover;
+        }
+        
+        .metadata {
+            position: relative;
+            background-color: #424242;
+            color: white;
+            padding: 20px;            
+            
+            h1 {
+                font-weight: 300; 
+                padding-bottom: 10px;
+            }
+            
+            h5 {
+                font-weight: 300;
+            }
+            
+            .fa {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 20px;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}

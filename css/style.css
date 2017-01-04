@@ -588,3 +588,32 @@ body {
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
+
+.album_tile {
+  background-color: #212121; }
+  .album_tile .section_name {
+    color: white; }
+  .album_tile .tile {
+    width: 300px;
+    margin: auto; }
+    .album_tile .tile .image {
+      height: 300px;
+      background-image: url(../images/album.jpg);
+      background-size: cover; }
+    .album_tile .tile .metadata {
+      position: relative;
+      background-color: #424242;
+      color: white;
+      padding: 20px; }
+      .album_tile .tile .metadata h1 {
+        font-weight: 300;
+        padding-bottom: 10px; }
+      .album_tile .tile .metadata h5 {
+        font-weight: 300; }
+      .album_tile .tile .metadata .fa {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        font-size: 20px;
+        cursor: pointer; }
