@@ -617,3 +617,58 @@ body {
         padding: 20px;
         font-size: 20px;
         cursor: pointer; }
+
+.switches {
+  background-color: #4CAF50; }
+  .switches .section_name {
+    color: white; }
+  .switches .app {
+    width: 320px;
+    margin: auto;
+    background-color: white; }
+    .switches .app table {
+      width: 100%; }
+      .switches .app table .icon {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 22px;
+        color: #666; }
+      .switches .app table .name {
+        width: 210px; }
+      .switches .app table .switch div {
+        position: relative;
+        width: 35px;
+        height: 15px;
+        background-color: #ddd;
+        -webkit-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        -webkit-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+        .switches .app table .switch div .circle {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          background-color: #aaa;
+          top: -2.5px;
+          -webkit-transition: all 0.3s;
+          -ms-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }
+      .switches .app table .active_switch div {
+        background-color: rgba(67, 160, 71, 0.5);
+        -webkit-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+        .switches .app table .active_switch div .circle {
+          background-color: #43A047;
+          left: 15px;
+          -webkit-transition: all 0.3s;
+          -ms-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s; }

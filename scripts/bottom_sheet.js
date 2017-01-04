@@ -5,10 +5,10 @@ $(document).ready(function() {
     $('#tomato_like').on('click', function() {
         if (clicked) {
             clicked = false;
-            $(this).attr('class', 'fa fa-star-o');
+            $('#tomato_icon').attr('class', 'fa fa-star-o');
         } else {
             clicked = true;
-            $(this).attr('class', 'fa fa-star');
+            $('#tomato_icon').attr('class', 'fa fa-star');
         }
     });
     
