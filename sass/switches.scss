@@ -31,14 +31,17 @@
                     width: 35px;
                     height: 15px;
                     background-color: #ddd;
-                    @include borrad(15px);@include transition(0.3s);
+                    @include borrad(15px);
+                    @include transition(0.3s);
                     
                     .circle {
                         position: absolute;
                         width: 20px;
                         height: 20px;
                         background-color: #aaa;
-                        top: -2.5px;@include transition(0.3s);
+                        top: -2.5px;
+                        @include shadow(2px);
+                        @include transition(0.3s);
                     }
                 }              
             }

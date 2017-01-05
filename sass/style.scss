@@ -13,7 +13,7 @@ $bg: #263238;
     transition: all $duration;
 }
 
-@mixin shadow($moved) {
+@mixin shadow() {
     -webkit-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
