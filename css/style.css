@@ -105,10 +105,10 @@ body {
       height: 60px;
       overflow: hidden;
       background-color: white;
-      -webkit-box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.1);
-      -ms-box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.1);
-      -moz-box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.1); }
+      -webkit-box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.2);
+      -ms-box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px -1px 5px 2px rgba(0, 0, 0, 0.2); }
       .weather_widget .widget .timeline .fa {
         position: absolute;
         left: 50%;
@@ -440,7 +440,11 @@ body {
             -webkit-border-radius: 50%;
             -ms-border-radius: 50%;
             -moz-border-radius: 50%;
-            border-radius: 50%; }
+            border-radius: 50%;
+            -webkit-transition: all 0.1s;
+            -ms-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s; }
         .card_expanding .card .content .buttons .icon .turned {
           transform: rotate(180deg);
           -webkit-transition: all 0.3s;
@@ -484,10 +488,10 @@ body {
         font-weight: 400;
         line-height: 1.5; }
       .bottom_sheet .app .sheet .topbar button {
-        -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        -ms-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+        -ms-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
         position: absolute;
         height: 50px;
         width: 50px;
@@ -655,10 +659,10 @@ body {
           height: 20px;
           background-color: #aaa;
           top: -2.5px;
-          -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-          -ms-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-          -moz-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+          -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          -ms-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
           -webkit-transition: all 0.3s;
           -ms-transition: all 0.3s;
           -moz-transition: all 0.3s;
@@ -708,28 +712,28 @@ body {
         -moz-border-radius: 5px;
         border-radius: 5px;
         cursor: pointer;
-        -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-        -ms-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        -ms-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
         -webkit-transition: all 0.3s;
         -ms-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s; }
         .alert_message .app .body .activate_alert:hover {
-          -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-          -ms-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-          -moz-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.1);
+          -webkit-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          -ms-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
           -webkit-transition: all 0.3s;
           -ms-transition: all 0.3s;
           -moz-transition: all 0.3s;
           transition: all 0.3s; }
         .alert_message .app .body .activate_alert:active {
-          -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-          -ms-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-          -moz-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+          -webkit-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          -ms-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
           -webkit-transition: all 0.1s;
           -ms-transition: all 0.1s;
           -moz-transition: all 0.1s;

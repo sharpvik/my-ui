@@ -74,6 +74,7 @@
                         &:active {
                             background-color: #eee;
                             @include borrad(50%);
+                            @include transition(0.1s);
                         }
                     }
                     

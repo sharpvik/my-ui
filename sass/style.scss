@@ -14,10 +14,10 @@ $bg: #263238;
 }
 
 @mixin shadow($moved) {
-    -webkit-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
-    -ms-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px $moved 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 @mixin borrad($radius) {
