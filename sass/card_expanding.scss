@@ -69,7 +69,7 @@
                         width: 35px;
                         height: 35px;
                         margin-right: 15px;
-                        @include transition(0.2s);
+                        @include transition(0.3s);
                         
                         &:active {
                             background-color: #eee;
@@ -79,7 +79,7 @@
                     
                     .turned {
                         transform: rotate(180deg);
-                        @include transition(0.2s);
+                        @include transition(0.3s);
                     }
                 }
             }
