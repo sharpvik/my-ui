@@ -1,0 +1,53 @@
+.alert_message {
+    background-color: #4A148C;
+    
+    .section_name {
+        color: white;
+    }
+    
+    .app {
+        width: 300px;
+        margin: auto;
+        background-color: white;
+        
+        .alert {
+            display: none;
+            background-color: #F44336;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            
+            #time_to_explode {
+                font-size: 45px;
+            }
+        }
+        
+        .body {
+            padding: 70px 0;
+            
+            .activate_alert {
+                background-color: #F44336;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                display: block;
+                margin: auto;
+                font-size: 18px;
+                @include borrad(5px);
+                cursor: pointer;
+                @include shadow(2px);
+                @include transition(0.3s);
+                
+                &:hover {
+                    @include shadow(5px);
+                    @include transition(0.3s);
+                }
+                
+                &:active {
+                    @include shadow(2px);
+                    @include transition(0.1s);
+                }
+            }
+        }
+    }
+}
