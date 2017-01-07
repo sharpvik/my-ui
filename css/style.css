@@ -738,3 +738,13 @@ body {
           -ms-transition: all 0.1s;
           -moz-transition: all 0.1s;
           transition: all 0.1s; }
+
+.slide_out_face .face {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url(../images/person.jpg);
+  background-size: cover; }
