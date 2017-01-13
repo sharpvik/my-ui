@@ -640,6 +640,8 @@ body {
         color: #666; }
       .switches .app table .name {
         width: 210px; }
+      .switches .app table .switch {
+        cursor: pointer; }
       .switches .app table .switch div {
         position: relative;
         width: 35px;
